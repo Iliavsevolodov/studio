@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DD STUDIO - разработка сайтов</title>
+    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li><a href="/"><img src="/img/logo.svg" alt=""></a></li>
+                    <li>
+                        <ul class="nav">
+                            <li><a href="#services" class="menu__link">Услуги</a></li>
+                            <li><a href="#portfolio" class="menu__link">Портфолио</a></li>
+                            <li><a href="#contacts" class="menu__link">Контакты</a></li>
+                            <li><a href="#contacts" class="menu__link">Блог</a></li>
+                        </ul>
+                    </li>
+                    <li class="top-btn"><a href="#">Написать</a></li>
+                    <div class="burger"></div>
+                </ul>
+            </nav>
+            <div class="offer">
+                <div class="offer-text">
+                    <h1 class="offer-title">Пора заказать сайт</h1>
+                    <p>Вы мечтаете иметь сайт или понимаете, что Ваши конкуренты намного лучше преуспевают в бизнесе? 
+                        Вы вышли на нужной станции! Вагон по направлению “Сомнения” уехал дальше по курсу!  Настало Ваше время!</p>
+                    <a href="#form" class="btn btn-blue">Хочу сайт</a>
+                </div>
+                <div class="offer-img">
+                    <img src="/img/header-illustration.svg" alt="" class="img">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="advantages">
+            <div class="container">
+                <ul>
+                    <li class="description">
+                        Мы специализируемся только на создании сайтов, поэтому гарантируем хорошее качество
+                    </li>
+                    <li class="description">
+                        Мы профессионалы своего дела, поэтому гарантируем короткие сроки
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                    <div class="info-left">
+                        <h3>Сайт - инструмент, который <span class="blue-text">приносит прибыль</span></h3>
+                        <p class="description">Вы можете обогнать конкурентов и дать своим клиентам новый опыт взаимодействия с компанией с помощью продуманного функционала, дизайна.</p>
+                    </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Услуги</h2>
+                <div class="services-list">
+                    <figure>
+                        <figcaption>Дизайн сайта</figcaption>
+                        <p class="description">Дизайн каждой страницы сайта с индивидуальным подходом, включая адаптивные версии, всплывающие окна</p>
+                        <div class="services-item-footer">
+                            <img src="/img/icon-design.svg" alt="">
+                            <span>01</span>
+                        </div>
+                        <div class="card-hover">
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </figure>
+                    <figure>
+                        <figcaption>Фронтенд-разработка</figcaption>
+                        <p class="description">Адаптивная, кроссбраузерная, валидная, семантичная вёрстка HTML + CSS, с подключением JavaScript </p>
+                        <div class="services-item-footer">
+                            <img src="/img/icon-frontend.svg" alt="">
+                            <span>02</span>
+                        </div>
+                        <div class="card-hover">
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </figure>
+                    <figure>
+                        <figcaption>Сайт под ключ</figcaption>
+                        <p class="description">Полный комплекс услуг по созданию сайта с нуля: дизайн, копирайтинг, вёрстка, программирование, посадка на CMS</p>
+                        <p class="gift">+ Год обслуживания в подарок 🎁</p>
+                        <div class="services-item-footer">
+                            <img src="/img/icon-key.svg" alt="">
+                            <span>03</span>
+                        </div>
+                        <div class="card-hover">
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="form" id="form" class="menu__link">
+            <div class="container">
+                <div class="form-content">
+                    <div class="form-illustration">
+                        <img src="/img/request-illustration.svg" alt="" class="img">
+                    </div>
+                    <div class="popup-form">
+                        <h3>Получите консультацию <br />онлайн</h3>
+                        <form action="">
+                            <input type="text" placeholder="Имя">
+                            <input type="tel" placeholder="Телефон">
+                            <input type="e-mail" placeholder="E-mail">
+                            <!-- <div class="checkbox">
+                                <input type="checkbox" id="checkbox-input"> 
+                                <label for="checkbox-input">
+                                     Даю согласие не обработку данных
+                                </label>
+                                </div> -->
+                            <button class="btn">Свяжитесь со мной</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps">
+            <div class="container">
+                <h2>Этапы работы</h2>
+                <div class="steps-content">
+                    <div class="steps-list">
+                        <figure>
+                            <figcaption>Брифование клиента</figcaption>
+                            <p>Заполнение бриф-анкеты с данными о проекте</p>
+                            <span>01</span>
+                        </figure>
+                        <figure>
+                            <figcaption>Проработка технического задания (ТЗ)</figcaption>
+                            <p>Требуется для точного понимания конечного результата проекта</p>
+                            <span>02</span>
+                        </figure>
+                        <figure>
+                            <figcaption>Прототипирование</figcaption>
+                            <p>Прорисовка скелета будущего сайта; <br />UX-анализ</p>
+                            <span>03</span>
+                        </figure>
+                        <figure>
+                            <figcaption>Создание макета дизайна сайта</figcaption>
+                            <p>Техническое решение и визуальное оформление страниц сайта</p>
+                            <span>04</span>
+                        </figure>
+                        <figure>
+                            <figcaption>Вёрстка</figcaption>
+                            <p>Разметка сайта в экране браузера</p>
+                            <span>05</span>
+                        </figure>
+                        <figure>
+                            <figcaption>Программирование</figcaption>
+                            <p>Созданние функциональной части сайта</p>
+                            <span>06</span>
+                        </figure>
+                        <figure>
+                            <figcaption>Посадка на CMS</figcaption>
+                            <p>Удобное решение для управления контентом сайта</p>
+                            <span>07</span>
+                        </figure>
+                        <figure>
+                            <figcaption>Тестирование</figcaption>
+                            <p>Проверка готового проекта на наличие ошибок и багов</p>
+                            <span>08</span>
+                        </figure>
+                    </div>
+                    <div class="steps-illustration">
+                        <img src="/img/steps-illustration.svg" alt="" class="img">
+                    </div>
+                </div>
+                <a href="#" class="btn-blue btn">Заказать сайт</a>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2>Портфолио</h2>
+                <div class="portfolio-list">
+                    В РАЗРАБОТКЕ
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <h2>Контакты</h2>
+                <div class="contacts-list">
+                    <a href="mailto:vsevolodovilja@yandex.ru">vsevolodovilja@yandex.ru</a>
+                    <a href="tel:+79005584101">+ 7 900 558 41 01</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--popups -->
+        <div class="popup">
+            <div class="popup-body">
+                <div class="popup-content">
+                    <div class="popup-close">
+                        <button>
+                            <svg width="20" height="19" viewBox="0 0 20 19">
+                                <line x1="1.35355" y1="0.646447" x2="19.3536" y2="18.6464" stroke="#A5A5A5"/>
+                                <line x1="0.646447" y1="18.6464" x2="18.6464" y2="0.646446" stroke="#A5A5A5"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="popup-form">
+                        <h3>Получите консультацию <br />онлайн</h3>
+                        <form action="">
+                            <input type="text" placeholder="Имя">
+                            <input type="tel" placeholder="Телефон">
+                            <input type="e-mail" placeholder="E-mail">
+                            <!-- <div class="checkbox">
+                                <input type="checkbox" id="checkbox-input"> 
+                                <label for="checkbox-input">
+                                    Даю согласие не обработку данных
+                                </label>
+                            </div> -->
+                            <button class="btn">Свяжитесь со мной</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <!-- <div class="side-form">
+        <div class="side-form-body">
+            <h3>У Вас есть вопрос?</h3>
+            <p>Мы ответим на него в ближайшее время</p>
+            <div class="popup-close">
+                <button>
+                    <svg width="20" height="19" viewBox="0 0 20 19">
+                        <line x1="1.35355" y1="0.646447" x2="19.3536" y2="18.6464" stroke="#A5A5A5"/>
+                        <line x1="0.646447" y1="18.6464" x2="18.6464" y2="0.646446" stroke="#A5A5A5"/>
+                    </svg>
+                </button>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Ваше имя">
+                <textarea cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+                <button class="btn btn-blue">Отправить</button>
+            </form>
+        </div>
+       </div> -->
+
+        <!-- mail -->
+        <div class="mail">
+            <a href="mailto:vsevolodovilja@yandex.ru"><img src="/img/mail.svg" alt=""></a>
+        </div>
+
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li><a href="/"><img src="/img/logo-footer.svg" alt=""></a></li>
+                    <li>
+                        <ul class="nav">
+                            <li><a href="#services" class="menu__link footer-link" style="color: #ccc;">Услуги</a></li>
+                            <li><a href="#portfolio" class="menu__link footer-link" style="color: #ccc;">Портфолио</a></li>
+                            <li><a href="#contacts" class="menu__link footer-link" style="color: #ccc;">Контакты</a></li>
+                            <li><a href="#contacts" class="menu__link footer-link" style="color: #ccc;">Блог</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/node_modules/wowjs/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
